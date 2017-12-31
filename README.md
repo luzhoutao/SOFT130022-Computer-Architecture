@@ -1,5 +1,5 @@
 # SOFT130022-Computer-Architecture
-The goal of these consecutive projects is to simulate the execution of a five-stage pipeline on a processor, namely FETCH, DECODE, EXECUTE, MEMORY and WRITE BACK.
+The goal of these 3 consecutive projects is to simulate the execution of a five-stage pipelined processor, namely FETCH, DECODE, EXECUTE, MEMORY and WRITE BACK.
 
 Project No. | Description | Related Code
 ------------|-------------|-------------
