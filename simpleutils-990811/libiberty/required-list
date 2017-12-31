@@ -1,0 +1,1 @@
+argv.o choose-temp.o concat.o cplus-dem.o fdmatch.o fnmatch.o getopt.o getopt1.o getruntime.o hex.o floatformat.o objalloc.o obstack.o pexecute.o spaces.o splay-tree.o strerror.o strsignal.o xatexit.o xexit.o xmalloc.o xstrdup.o xstrerror.o

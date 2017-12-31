@@ -1,0 +1,211 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:594: checking host system type
+configure:615: checking target system type
+configure:633: checking build system type
+configure:668: checking for a BSD compatible install
+configure:721: checking whether build environment is sane
+configure:778: checking whether make sets ${MAKE}
+configure:824: checking for working aclocal
+configure:837: checking for working autoconf
+configure:850: checking for working automake
+configure:863: checking for working autoheader
+configure:876: checking for working makeinfo
+configure:962: checking for ranlib
+configure:992: checking for gcc
+configure:1105: checking whether the C compiler (gcc -g -O2 -W -Wall ) works
+configure:1121: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1118:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:1147: checking whether the C compiler (gcc -g -O2 -W -Wall ) is a cross-compiler
+configure:1152: checking whether we are using GNU C
+configure:1180: checking whether gcc accepts -g
+configure:1223: checking for ld used by GCC
+configure:1286: checking if the linker (/usr/bin/ld) is GNU ld
+configure:1302: checking for BSD-compatible nm
+configure:1340: checking command to parse /usr/bin/nm -B output
+configure:1505: checking for _ prefix in compiled symbols
+configure:1543: checking whether ln -s works
+ltconfig:586: checking for object suffix
+ltconfig:587: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+ltconfig:717: checking if gcc PIC flag -fPIC works
+ltconfig:718: gcc -c -g -O2 -W -Wall -fPIC -DPIC  conftest.c 1>&5
+ltconfig:760: checking if gcc supports -c -o file.o
+ltconfig:761: gcc -c -g -O2 -W -Wall -c -o conftest2.o  conftest.c 1>&5
+ltconfig:788: checking if gcc supports -c -o file.lo
+ltconfig:789: gcc -c -g -O2 -W -Wall -c -o conftest.lo  conftest.c 1>&5
+ltconfig:840: checking if gcc supports -fno-rtti -fno-exceptions
+ltconfig:841: gcc -c -g -O2 -W -Wall -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+ltconfig:884: checking if gcc static flag -static works
+ltconfig:885: gcc -o conftest -g -O2 -W -Wall   -static conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+ltconfig:1447: checking if global_symbol_pipe works
+ltconfig:1448: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+conftest.c:9:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){nm_test_var='a';nm_test_func();return(0);}
+ ^
+ltconfig:1451: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ 	]\([ABCDGISTW]\)[ 	][ 	]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/  /p' > conftest.nm"
+ltconfig:1503: gcc -o conftest -g -O2 -W -Wall -fno-builtin   conftest.c conftestm.o 1>&5
+conftest.c:6:13: warning: 'main' is usually a function [-Wmain]
+ extern char main;
+             ^
+configure:1906: checking for gcc
+configure:2019: checking whether the C compiler (gcc -g -O2 -W -Wall ) works
+configure:2035: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2032:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:2061: checking whether the C compiler (gcc -g -O2 -W -Wall ) is a cross-compiler
+configure:2066: checking whether we are using GNU C
+configure:2094: checking whether gcc accepts -g
+configure:2131: checking for bison
+configure:2162: checking how to run the C preprocessor
+configure:2247: checking for flex
+configure:2280: checking for flex
+configure:2314: checking for yywrap in -lfl
+configure:2333: gcc -o conftest -g -O2 -W -Wall   conftest.c -lfl   1>&5
+configure:2356: checking lex output file root
+configure:2377: checking whether yytext is a pointer
+configure:2396: gcc -o conftest -g -O2 -W -Wall   conftest.c  -lfl 1>&5
+lex.yy.c: In function 'yy_get_next_buffer':
+lex.yy.c:1002:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if ((int) ((yy_n_chars) + number_to_move) > YY_CURRENT_BUFFER_LVALUE->yy_buf_size) {
+                                            ^
+<stdin>: At top level:
+lex.yy.c:1078:17: warning: 'yyunput' defined but not used [-Wunused-function]
+     static void yyunput (int c, char * yy_bp )
+                 ^
+lex.yy.c:1121:16: warning: 'input' defined but not used [-Wunused-function]
+     static int input  (void)
+                ^
+configure:2420: checking for POSIXized ISC
+configure:2441: checking for ANSI C header files
+configure:2545: checking for working const
+configure:2620: checking for inline
+configure:2660: checking for off_t
+configure:2693: checking for size_t
+configure:2728: checking for working alloca.h
+configure:2761: checking for alloca
+configure:2963: checking for unistd.h
+configure:3002: checking for getpagesize
+configure:3055: checking for working mmap
+configure:3231: checking for argz.h
+configure:3231: checking for limits.h
+configure:3231: checking for locale.h
+configure:3231: checking for nl_types.h
+configure:3231: checking for malloc.h
+configure:3231: checking for string.h
+configure:3231: checking for unistd.h
+configure:3231: checking for values.h
+configure:3231: checking for sys/param.h
+configure:3271: checking for getcwd
+configure:3271: checking for munmap
+configure:3271: checking for putenv
+configure:3271: checking for setenv
+configure:3271: checking for setlocale
+configure:3271: checking for strchr
+configure:3271: checking for strcasecmp
+configure:3271: checking for __argz_count
+configure:3271: checking for __argz_stringify
+configure:3271: checking for __argz_next
+configure:3390: checking for LC_MESSAGES
+configure:3423: checking whether NLS is requested
+configure:3443: checking whether included gettext is requested
+configure:3462: checking for libintl.h
+configure:3489: checking for gettext in libc
+configure:3592: checking for msgfmt
+configure:3626: checking for dcgettext
+configure:3681: checking for gmsgfmt
+configure:3717: checking for xgettext
+configure:3757: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:4050: checking whether to enable maintainer-specific portions of Makefiles
+configure:4073: checking for Cygwin environment
+configure:4106: checking for mingw32 environment
+configure:4137: checking for executable suffix
+configure:4190: checking for ranlib
+configure:4229: checking for a BSD compatible install
+configure:4331: checking for string.h
+configure:4331: checking for strings.h
+configure:4331: checking for stdlib.h
+configure:4331: checking for unistd.h
+configure:4331: checking for fcntl.h
+configure:4331: checking for sys/file.h
+configure:4368: checking for sys/wait.h that is POSIX.1 compatible
+configure:4412: checking for working alloca.h
+configure:4445: checking for alloca
+configure:4646: checking for sbrk
+configure:4646: checking for utimes
+configure:4674: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:4702: checking for library containing frexp
+configure:4720: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:4713:6: warning: conflicting types for built-in function 'frexp'
+ char frexp();
+      ^
+configure:4764: checking for time_t in time.h
+configure:4776: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4772:8: warning: unused variable 'i' [-Wunused-variable]
+ time_t i;
+        ^
+configure:4797: checking for time_t in sys/types.h
+configure:4809: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4805:8: warning: unused variable 'i' [-Wunused-variable]
+ time_t i;
+        ^
+configure:4832: checking for utime.h
+configure:4848: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4844:16: warning: unused variable 's' [-Wunused-variable]
+ struct utimbuf s;
+                ^
+configure:4869: checking whether fprintf must be declared
+configure:4895: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4891:9: warning: unused variable 'pfn' [-Wunused-variable]
+ char *(*pfn) = (char *(*)) fprintf
+         ^
+configure:4916: checking whether strstr must be declared
+configure:4963: checking whether sbrk must be declared
+configure:4989: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4985:9: warning: unused variable 'pfn' [-Wunused-variable]
+ char *(*pfn) = (char *(*)) sbrk
+         ^
+configure:5010: checking whether getenv must be declared
+configure:5057: checking whether environ must be declared
+configure:5083: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:5079:28: error: 'environ' undeclared (first use in this function)
+ char *(*pfn) = (char *(*)) environ
+                            ^
+configure:5079:28: note: each undeclared identifier is reported only once for each function it appears in
+configure:5079:9: warning: unused variable 'pfn' [-Wunused-variable]
+ char *(*pfn) = (char *(*)) environ
+         ^
+configure: failed program was:
+#line 5062 "configure"
+#include "confdefs.h"
+
+#include <stdio.h>
+#ifdef HAVE_STRING_H
+#include <string.h>
+#else
+#ifdef HAVE_STRINGS_H
+#include <strings.h>
+#endif
+#endif
+#ifdef HAVE_STDLIB_H
+#include <stdlib.h>
+#endif
+#ifdef HAVE_UNISTD_H
+#include <unistd.h>
+#endif
+int main() {
+char *(*pfn) = (char *(*)) environ
+; return 0; }

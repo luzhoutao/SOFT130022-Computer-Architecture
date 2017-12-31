@@ -1,0 +1,40 @@
+OUTPUT_FORMAT("ss-coff-little", "ss-coff-big",
+	      "ss-coff-little")
+ SEARCH_DIR(/home/zhoutao/Desktop/Arch/sslittle-na-sstrix/lib);
+ENTRY(__start)
+SECTIONS
+{
+  .text : {
+    ;
+    *(.init)
+    ;
+    *(.text)
+    *(.fini)
+    ;
+    ;
+  }
+  .rdata : {
+    *(.rdata)
+  }
+  .data : {
+    *(.data)
+    CONSTRUCTORS
+  }
+  .lit8 : {
+    *(.lit8)
+  }
+  .lit4 : {
+    *(.lit4)
+  }
+  .sdata : {
+    *(.sdata)
+  }
+  .sbss : {
+    *(.sbss)
+    *(.scommon)
+  }
+  .bss : {
+    *(.bss)
+    *(COMMON)
+  }
+}

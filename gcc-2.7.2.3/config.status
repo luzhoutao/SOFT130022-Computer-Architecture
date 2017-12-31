@@ -1,0 +1,4 @@
+#!/bin/sh
+# GCC was configured as follows:
+./configure --host=i686-pc-linux --target=sslittle-na-sstrix --with-gnu-as --with-gnu-ld --prefix=/home/zhoutao/Desktop/Arch
+echo host=i686-pc-linux target=sslittle-na-sstrix build=i686-pc-linux

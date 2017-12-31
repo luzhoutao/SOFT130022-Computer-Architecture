@@ -1,0 +1,5 @@
+#!/bin/sh
+# This file was generated automatically by configure.  Do not edit.
+# This directory was configured as follows:
+./configure --host=i686-pc-linux --target=sslittle-na-sstrix --with-gnu-as --with-gnu-ld --prefix=/home/zhoutao/Desktop/Arch --norecursion 
+# 

@@ -1,0 +1,222 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:602: checking host system type
+configure:625: checking build system type
+configure:651: checking for ar
+configure:683: checking for ranlib
+configure:760: checking for gcc
+configure:839: checking whether we are using GNU C
+configure:863: checking whether gcc accepts -g
+configure:892: checking for POSIXized ISC
+configure:930: checking for a BSD compatible install
+configure:991: checking how to run the C preprocessor
+configure:1074: checking for sys/file.h
+configure:1084: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1074: checking for sys/param.h
+configure:1074: checking for stdlib.h
+configure:1084: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1074: checking for string.h
+configure:1074: checking for unistd.h
+configure:1074: checking for strings.h
+configure:1084: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1074: checking for sys/time.h
+configure:1084: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1074: checking for sys/resource.h
+configure:1084: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1111: checking for sys/wait.h that is POSIX.1 compatible
+configure:1132: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure:1738: checking whether the C compiler (gcc -g -O2 -W -Wall ) works
+configure:1754: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1751:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:1780: checking whether the C compiler (gcc -g -O2 -W -Wall ) is a cross-compiler
+configure:1787: checking for asprintf
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for atexit
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for basename
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for bcmp
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'bcmp'
+ char $ac_func();
+      ^
+configure:1787: checking for bcopy
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'bcopy'
+ char $ac_func();
+      ^
+configure:1787: checking for bzero
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'bzero'
+ char $ac_func();
+      ^
+configure:1787: checking for calloc
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'calloc'
+ char $ac_func();
+      ^
+configure:1787: checking for clock
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for getcwd
+configure:1787: checking for getpagesize
+configure:1787: checking for index
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'index'
+ char $ac_func();
+      ^
+configure:1787: checking for insque
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for memchr
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'memchr'
+ char $ac_func();
+      ^
+configure:1787: checking for memcmp
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'memcmp'
+ char $ac_func();
+      ^
+configure:1787: checking for memcpy
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'memcpy'
+ char $ac_func();
+      ^
+configure:1787: checking for memmove
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'memmove'
+ char $ac_func();
+      ^
+configure:1787: checking for memset
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'memset'
+ char $ac_func();
+      ^
+configure:1787: checking for mkstemps
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for random
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for rename
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for rindex
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'rindex'
+ char $ac_func();
+      ^
+configure:1787: checking for sigsetmask
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for strcasecmp
+configure:1787: checking for strchr
+configure:1787: checking for strdup
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'strdup'
+ char $ac_func();
+      ^
+configure:1787: checking for strncasecmp
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'strncasecmp'
+ char $ac_func();
+      ^
+configure:1787: checking for strrchr
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'strrchr'
+ char $ac_func();
+      ^
+configure:1787: checking for strstr
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'strstr'
+ char $ac_func();
+      ^
+configure:1787: checking for strtod
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for strtol
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for strtoul
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for tmpnam
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+/tmp/cc5duqwx.o: In function `main':
+/home/zhoutao/Desktop/Arch/simpleutils-990811/libiberty/configure:1809: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+configure:1787: checking for vasprintf
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1787: checking for vfprintf
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'vfprintf'
+ char $ac_func();
+      ^
+configure:1787: checking for vprintf
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'vprintf'
+ char $ac_func();
+      ^
+configure:1787: checking for vsprintf
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1799:6: warning: conflicting types for built-in function 'vsprintf'
+ char $ac_func();
+      ^
+configure:1787: checking for waitpid
+configure:1815: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:1844: checking for working alloca.h
+configure:1877: checking for alloca
+configure:2076: checking for ANSI C header files
+configure:2180: checking for pid_t
+configure:2214: checking for vfork.h
+configure:2224: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2220:19: fatal error: vfork.h: No such file or directory
+compilation terminated.
+configure: failed program was:
+#line 2219 "configure"
+#include "confdefs.h"
+#include <vfork.h>
+configure:2249: checking for working vfork
+configure:2400: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2326:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ sparc_address_test (arg) int arg;
+ ^
+configure:2343:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main() {
+ ^
+configure: In function 'main':
+configure:2381:12: warning: implicit declaration of function 'wait' [-Wimplicit-function-declaration]
+     while (wait(&status) != child)
+            ^
+configure:2383:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+     exit(
+     ^
+configure:2383:5: warning: incompatible implicit declaration of built-in function 'exit'
+configure:2383:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure: In function 'sparc_address_test':
+configure:2338:7: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+       write(-1, "", 0);
+       ^
+configure:2342:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+configure:2427: checking for sys_errlist
+configure:2439: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+/tmp/ccfgS5Ff.o: In function `main':
+/home/zhoutao/Desktop/Arch/simpleutils-990811/libiberty/configure:2435: warning: `sys_errlist' is deprecated; use `strerror' or `strerror_r' instead
+configure:2427: checking for sys_nerr
+configure:2439: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+/tmp/ccGJYwh9.o: In function `main':
+/home/zhoutao/Desktop/Arch/simpleutils-990811/libiberty/configure:2435: warning: `sys_nerr' is deprecated; use `strerror' or `strerror_r' instead
+configure:2427: checking for sys_siglist
+configure:2439: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2465: checking for getrusage
+configure:2493: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2465: checking for on_exit
+configure:2493: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2465: checking for psignal
+configure:2493: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2465: checking for strerror
+configure:2493: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2465: checking for strsignal
+configure:2493: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2465: checking for sysconf
+configure:2493: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2465: checking for times
+configure:2493: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2465: checking for sbrk
+configure:2493: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5

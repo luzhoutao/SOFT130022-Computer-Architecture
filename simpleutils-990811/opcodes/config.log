@@ -1,0 +1,166 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:594: checking host system type
+configure:615: checking target system type
+configure:633: checking build system type
+configure:658: checking for gcc
+configure:771: checking whether the C compiler (gcc -g -O2 -W -Wall ) works
+configure:787: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:784:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:813: checking whether the C compiler (gcc -g -O2 -W -Wall ) is a cross-compiler
+configure:818: checking whether we are using GNU C
+configure:846: checking whether gcc accepts -g
+configure:878: checking for POSIXized ISC
+configure:916: checking for a BSD compatible install
+configure:969: checking whether build environment is sane
+configure:1026: checking whether make sets ${MAKE}
+configure:1072: checking for working aclocal
+configure:1085: checking for working autoconf
+configure:1098: checking for working automake
+configure:1111: checking for working autoheader
+configure:1124: checking for working makeinfo
+configure:1147: checking for ar
+configure:1179: checking for ranlib
+configure:1317: checking for ranlib
+configure:1356: checking for ld used by GCC
+configure:1419: checking if the linker (/usr/bin/ld) is GNU ld
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+configure:1435: checking for BSD-compatible nm
+configure:1473: checking command to parse /usr/bin/nm -B output
+configure:1536: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+conftest.c: In function 'main':
+conftest.c:9:28: warning: statement with no effect [-Wunused-value]
+ int main(){nm_test_var='a';nm_test_func;return 0;}
+                            ^
+configure:1540: /usr/bin/nm -B conftest.o | sed -n -e 's/^.* \([ABCDGISTW]\) *\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/  /p' > conftest.nm
+configure:1592: gcc -o conftest -g -O2 -W -Wall   conftest.c conftestm.o 1>&5
+conftest.c:6:13: warning: 'main' is usually a function [-Wmain]
+ extern char main;
+             ^
+configure:1638: checking for _ prefix in compiled symbols
+configure:1676: checking whether ln -s works
+ltconfig:586: checking for object suffix
+ltconfig:587: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+ltconfig:717: checking if gcc PIC flag -fPIC works
+ltconfig:718: gcc -c -g -O2 -W -Wall -fPIC -DPIC  conftest.c 1>&5
+ltconfig:760: checking if gcc supports -c -o file.o
+ltconfig:761: gcc -c -g -O2 -W -Wall -c -o conftest2.o  conftest.c 1>&5
+ltconfig:788: checking if gcc supports -c -o file.lo
+ltconfig:789: gcc -c -g -O2 -W -Wall -c -o conftest.lo  conftest.c 1>&5
+ltconfig:840: checking if gcc supports -fno-rtti -fno-exceptions
+ltconfig:841: gcc -c -g -O2 -W -Wall -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+ltconfig:884: checking if gcc static flag -static works
+ltconfig:885: gcc -o conftest -g -O2 -W -Wall   -static conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+ltconfig:1447: checking if global_symbol_pipe works
+ltconfig:1448: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+conftest.c:9:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){nm_test_var='a';nm_test_func();return(0);}
+ ^
+ltconfig:1451: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ 	]\([ABCDGISTW]\)[ 	][ 	]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/  /p' > conftest.nm"
+ltconfig:1503: gcc -o conftest -g -O2 -W -Wall -fno-builtin   conftest.c conftestm.o 1>&5
+conftest.c:6:13: warning: 'main' is usually a function [-Wmain]
+ extern char main;
+             ^
+configure:2047: checking whether to enable maintainer-specific portions of Makefiles
+configure:2070: checking for Cygwin environment
+configure:2086: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:2080:20: error: '__CYGWIN32__' undeclared (first use in this function)
+ #define __CYGWIN__ __CYGWIN32__
+                    ^
+configure:2082:8: note: in expansion of macro '__CYGWIN__'
+ return __CYGWIN__;
+        ^
+configure:2080:20: note: each undeclared identifier is reported only once for each function it appears in
+ #define __CYGWIN__ __CYGWIN32__
+                    ^
+configure:2082:8: note: in expansion of macro '__CYGWIN__'
+ return __CYGWIN__;
+        ^
+configure: failed program was:
+#line 2075 "configure"
+#include "confdefs.h"
+
+int main() {
+
+#ifndef __CYGWIN__
+#define __CYGWIN__ __CYGWIN32__
+#endif
+return __CYGWIN__;
+; return 0; }
+configure:2103: checking for mingw32 environment
+configure:2115: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:2111:8: error: '__MINGW32__' undeclared (first use in this function)
+ return __MINGW32__;
+        ^
+configure:2111:8: note: each undeclared identifier is reported only once for each function it appears in
+configure: failed program was:
+#line 2108 "configure"
+#include "confdefs.h"
+
+int main() {
+return __MINGW32__;
+; return 0; }
+configure:2134: checking for executable suffix
+configure:2144: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2170: checking for gcc
+configure:2283: checking whether the C compiler (gcc -g -O2 -W -Wall ) works
+configure:2299: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2296:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:2325: checking whether the C compiler (gcc -g -O2 -W -Wall ) is a cross-compiler
+configure:2330: checking whether we are using GNU C
+configure:2358: checking whether gcc accepts -g
+configure:2392: checking how to run the C preprocessor
+configure:2472: checking for ANSI C header files
+configure:2576: checking for working const
+configure:2651: checking for inline
+configure:2691: checking for off_t
+configure:2724: checking for size_t
+configure:2759: checking for working alloca.h
+configure:2792: checking for alloca
+configure:2994: checking for unistd.h
+configure:3033: checking for getpagesize
+configure:3086: checking for working mmap
+configure:3262: checking for argz.h
+configure:3262: checking for limits.h
+configure:3262: checking for locale.h
+configure:3262: checking for nl_types.h
+configure:3262: checking for malloc.h
+configure:3262: checking for string.h
+configure:3262: checking for unistd.h
+configure:3262: checking for values.h
+configure:3262: checking for sys/param.h
+configure:3302: checking for getcwd
+configure:3302: checking for munmap
+configure:3302: checking for putenv
+configure:3302: checking for setenv
+configure:3302: checking for setlocale
+configure:3302: checking for strchr
+configure:3302: checking for strcasecmp
+configure:3302: checking for __argz_count
+configure:3302: checking for __argz_stringify
+configure:3302: checking for __argz_next
+configure:3421: checking for LC_MESSAGES
+configure:3454: checking whether NLS is requested
+configure:3474: checking whether included gettext is requested
+configure:3493: checking for libintl.h
+configure:3520: checking for gettext in libc
+configure:3623: checking for msgfmt
+configure:3657: checking for dcgettext
+configure:3712: checking for gmsgfmt
+configure:3748: checking for xgettext
+configure:3788: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:4095: checking for a BSD compatible install
+configure:4152: checking for string.h
+configure:4152: checking for strings.h
+configure:4152: checking for stdlib.h

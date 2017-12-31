@@ -1,0 +1,201 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:598: checking host system type
+configure:619: checking target system type
+configure:637: checking build system type
+configure:662: checking for gcc
+configure:775: checking whether the C compiler (gcc -g -O2 -W -Wall ) works
+configure:791: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:788:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:817: checking whether the C compiler (gcc -g -O2 -W -Wall ) is a cross-compiler
+configure:822: checking whether we are using GNU C
+configure:850: checking whether gcc accepts -g
+configure:882: checking for POSIXized ISC
+configure:915: checking for a BSD compatible install
+configure:968: checking whether build environment is sane
+configure:1025: checking whether make sets ${MAKE}
+configure:1071: checking for working aclocal
+configure:1084: checking for working autoconf
+configure:1097: checking for working automake
+configure:1110: checking for working autoheader
+configure:1123: checking for working makeinfo
+configure:1146: checking for ar
+configure:1178: checking for ranlib
+configure:1316: checking for ranlib
+configure:1355: checking for ld used by GCC
+configure:1418: checking if the linker (/usr/bin/ld) is GNU ld
+configure:1434: checking for BSD-compatible nm
+configure:1472: checking command to parse /usr/bin/nm -B output
+configure:1637: checking for _ prefix in compiled symbols
+configure:1675: checking whether ln -s works
+ltconfig:586: checking for object suffix
+ltconfig:587: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+ltconfig:717: checking if gcc PIC flag -fPIC works
+ltconfig:718: gcc -c -g -O2 -W -Wall -fPIC -DPIC  conftest.c 1>&5
+ltconfig:760: checking if gcc supports -c -o file.o
+ltconfig:761: gcc -c -g -O2 -W -Wall -c -o conftest2.o  conftest.c 1>&5
+ltconfig:788: checking if gcc supports -c -o file.lo
+ltconfig:789: gcc -c -g -O2 -W -Wall -c -o conftest.lo  conftest.c 1>&5
+ltconfig:840: checking if gcc supports -fno-rtti -fno-exceptions
+ltconfig:841: gcc -c -g -O2 -W -Wall -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+ltconfig:884: checking if gcc static flag -static works
+ltconfig:885: gcc -o conftest -g -O2 -W -Wall   -static conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+ltconfig:1447: checking if global_symbol_pipe works
+ltconfig:1448: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+conftest.c:9:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){nm_test_var='a';nm_test_func();return(0);}
+ ^
+ltconfig:1451: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ 	]\([ABCDGISTW]\)[ 	][ 	]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/  /p' > conftest.nm"
+ltconfig:1503: gcc -o conftest -g -O2 -W -Wall -fno-builtin   conftest.c conftestm.o 1>&5
+conftest.c:6:13: warning: 'main' is usually a function [-Wmain]
+ extern char main;
+             ^
+configure:2068: checking whether to enable maintainer-specific portions of Makefiles
+configure:2091: checking for Cygwin environment
+configure:2124: checking for mingw32 environment
+configure:2155: checking for executable suffix
+configure:2194: checking for gcc
+configure:2307: checking whether the C compiler (gcc -g -O2 -W -Wall ) works
+configure:2323: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:2320:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:2349: checking whether the C compiler (gcc -g -O2 -W -Wall ) is a cross-compiler
+configure:2354: checking whether we are using GNU C
+configure:2382: checking whether gcc accepts -g
+configure:2416: checking how to run the C preprocessor
+configure:2496: checking for ANSI C header files
+configure:2600: checking for working const
+configure:2675: checking for inline
+configure:2715: checking for off_t
+configure:2748: checking for size_t
+configure:2783: checking for working alloca.h
+configure:2816: checking for alloca
+configure:3018: checking for unistd.h
+configure:3057: checking for getpagesize
+configure:3110: checking for working mmap
+configure:3286: checking for argz.h
+configure:3286: checking for limits.h
+configure:3286: checking for locale.h
+configure:3286: checking for nl_types.h
+configure:3286: checking for malloc.h
+configure:3286: checking for string.h
+configure:3286: checking for unistd.h
+configure:3286: checking for values.h
+configure:3286: checking for sys/param.h
+configure:3326: checking for getcwd
+configure:3326: checking for munmap
+configure:3326: checking for putenv
+configure:3326: checking for setenv
+configure:3326: checking for setlocale
+configure:3326: checking for strchr
+configure:3326: checking for strcasecmp
+configure:3326: checking for __argz_count
+configure:3326: checking for __argz_stringify
+configure:3326: checking for __argz_next
+configure:3445: checking for LC_MESSAGES
+configure:3478: checking whether NLS is requested
+configure:3498: checking whether included gettext is requested
+configure:3517: checking for libintl.h
+configure:3544: checking for gettext in libc
+configure:3647: checking for msgfmt
+configure:3681: checking for dcgettext
+configure:3736: checking for gmsgfmt
+configure:3772: checking for xgettext
+configure:3812: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:4120: checking for a BSD compatible install
+configure:4231: checking for stddef.h
+configure:4241: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4231: checking for string.h
+configure:4231: checking for strings.h
+configure:4231: checking for stdlib.h
+configure:4231: checking for time.h
+configure:4241: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4231: checking for unistd.h
+configure:4271: checking for fcntl.h
+configure:4281: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4271: checking for sys/file.h
+configure:4271: checking for sys/time.h
+configure:4308: checking whether time.h and sys/time.h may both be included
+configure:4322: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4318:12: warning: unused variable 'tp' [-Wunused-variable]
+ struct tm *tp;
+            ^
+configure:4347: checking for dirent.h that defines DIR
+configure:4360: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4356:6: warning: unused variable 'dirp' [-Wunused-variable]
+ DIR *dirp = 0;
+      ^
+configure:4385: checking for opendir in -ldir
+configure:4404: gcc -o conftest -g -O2 -W -Wall   conftest.c -ldir   1>&5
+/usr/bin/ld: cannot find -ldir
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 4393 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char opendir();
+
+int main() {
+opendir()
+; return 0; }
+configure:4470: checking for fcntl
+configure:4498: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:4470: checking for getpagesize
+configure:4470: checking for setitimer
+configure:4498: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:4470: checking for sysconf
+configure:4470: checking for fdopen
+configure:4498: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:4470: checking for getuid
+configure:4498: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:4470: checking for getgid
+configure:4498: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:4533: checking whether strstr must be declared
+configure:4559: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4555:9: warning: unused variable 'pfn' [-Wunused-variable]
+ char *(*pfn) = (char *(*)) strstr
+         ^
+configure:4580: checking whether malloc must be declared
+configure:4606: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4602:9: warning: unused variable 'pfn' [-Wunused-variable]
+ char *(*pfn) = (char *(*)) malloc
+         ^
+configure:4627: checking whether realloc must be declared
+configure:4653: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4649:9: warning: unused variable 'pfn' [-Wunused-variable]
+ char *(*pfn) = (char *(*)) realloc
+         ^
+configure:4674: checking whether free must be declared
+configure:4700: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4696:9: warning: unused variable 'pfn' [-Wunused-variable]
+ char *(*pfn) = (char *(*)) free
+         ^
+configure:4721: checking whether getenv must be declared
+configure:4747: gcc -c -g -O2 -W -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4743:9: warning: unused variable 'pfn' [-Wunused-variable]
+ char *(*pfn) = (char *(*)) getenv
+         ^
+configure:5588: checking for unistd.h
+configure:5627: checking for getpagesize
+configure:5680: checking for working mmap
+configure:5853: checking for madvise
+configure:5881: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
+configure:5853: checking for mprotect
+configure:5881: gcc -o conftest -g -O2 -W -Wall   conftest.c  1>&5
